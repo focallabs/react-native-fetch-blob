@@ -9,5 +9,4 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wkh237/react-native-fetch-blob", :tag => 'v0.10.6'}
   s.source_files = 'ios/**/*.{h,m}'
   s.platform     = :ios, "7.0"
-  s.dependency 'React/Core'
 end
